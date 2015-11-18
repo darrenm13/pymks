@@ -114,6 +114,7 @@ def make_elastic_FE_strain_random(n_samples=1, elastic_modulus=(100, 150),
     microstructure with dimensions of `(5, 5)`.
 
     Args:
+        n_samples (int, optional): number of samples
         elastic_modulus (list, optional): elastic moduli for the phases
         poissons_ratio (list, optional): Poisson's ratios for the phases
         size (tuple, optional): size of the microstructure
@@ -126,10 +127,10 @@ def make_elastic_FE_strain_random(n_samples=1, elastic_modulus=(100, 150),
          tuple containing delta microstructures and their strain fields
 
     Example
-
+    >>> n_samples =  1
     >>> elastic_modulus = (1., 2.)
     >>> poissons_ratio = (0.3, 0.3)
-    >>> X, y = make_elastic_FE_strain_random(n_samples=1,
+    >>> X, y = make_elastic_FE_strain_random(n_samples=n_samples,
     ...                                      elastic_modulus=elastic_modulus,
     ...                                      poissons_ratio=poissons_ratio,
     ...                                      size=(5, 5))
