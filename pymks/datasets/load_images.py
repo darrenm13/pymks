@@ -4,10 +4,12 @@ import skimage.io as io
 Z = np.zeros((63, 376, 500))
 
 pic_array = (
+ 'https://farm4.staticflickr.com/3870/15061910427_3cefedbcc7_z_d.jpg',
  'https://farm4.staticflickr.com/3913/15225473936_b0e7b83734_z_d.jpg',
  'https://farm6.staticflickr.com/5588/15245381241_700ea05db1_z_d.jpg',
  'https://farm4.staticflickr.com/3877/15245381211_c2dce16a2f_z_d.jpg',
  'https://farm4.staticflickr.com/3921/15061717289_53c8e486d4_z_d.jpg',
+ 'https://farm6.staticflickr.com/5588/15248472465_e0390bf56b_z_d.jpg',
  'https://farm4.staticflickr.com/3890/15061918228_227a6d9b74_z_d.jpg',
  'https://farm4.staticflickr.com/3889/15245380771_2eca66bea7_z_d.jpg',
  'https://farm6.staticflickr.com/5565/15245380551_20e4e141c7_z_d.jpg',
@@ -23,7 +25,7 @@ pic_array = (
  'https://farm6.staticflickr.com/5560/15061796010_c6feb5714e_z_d.jpg',
  'https://farm4.staticflickr.com/3913/15245379481_fa3286bfc6_z_d.jpg',
  'https://farm4.staticflickr.com/3898/15061795770_1fd51d9383_z_d.jpg',
- 'https://farm4.staticflickr.com/3898/15061795770_1fd51d9383_z_d.jpg',
+ 'https://farm6.staticflickr.com/5570/15061715469_b6b239bb6f_z_d.jpg',
  'https://farm6.staticflickr.com/5557/15225471866_7a9b298846_z_d.jpg',
  'https://farm4.staticflickr.com/3838/15248470565_56b8881cb2_z_d.jpg',
  'https://farm4.staticflickr.com/3850/15245379231_919d661b53_z_d.jpg',
@@ -63,7 +65,8 @@ pic_array = (
  'https://farm4.staticflickr.com/3897/15248466815_958b48c000_z_d.jpg',
  'https://farm4.staticflickr.com/3897/15248466765_2354142b9a_z_d.jpg',
  'https://farm4.staticflickr.com/3911/15245375521_f1e14e1ddc_z_d.jpg',
- 'https://farm6.staticflickr.com/5565/15248466485_78e3a05904_z_d.jpg')
+ 'https://farm6.staticflickr.com/5565/15248466485_78e3a05904_z_d.jpg',
+ 'https://farm4.staticflickr.com/3926/15248091852_0a2bdd4038_z_d.jpg')
 
 
 for x in range(0, 59):
