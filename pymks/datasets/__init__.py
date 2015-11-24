@@ -7,8 +7,11 @@ from .load_images import load_ti64
 __all__ = ['make_delta_microstructures', 'make_elastic_FE_strain_delta',
            'make_elastic_FE_strain_random', 'make_cahn_hilliard',
            'make_microstructure', 'make_checkerboard_microstructure',
-           'make_elastic_stress_random']
-
+           'make_elastic_stress_random', 'load_ti64']
+           
+def load_ti64()
+           """future input arguments will be the images from a Georgia Tech database, but for now they are
+           inputs from flickr
 
 def make_elastic_FE_strain_delta(elastic_modulus=(100, 150),
                                  poissons_ratio=(0.3, 0.3),
