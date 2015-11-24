@@ -1,6 +1,8 @@
 import numpy as np
 import skimage.io as io
 
+def load_ti64():
+
 Z = np.zeros((63, 376, 500))
 
 pic_array = (
@@ -76,4 +78,4 @@ for x in range(0, 59):
     Z[x] = X
 
 
-print Z
+return Z
