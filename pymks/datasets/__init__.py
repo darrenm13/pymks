@@ -81,7 +81,8 @@ def load_ti64()
         X = io.imread(pic_array[x])[None]
         X = np.round(X / float(np.max(X))).astype(int)
         Z[x] = X
-
+        return Z
+        
 
 def make_elastic_FE_strain_delta(elastic_modulus=(100, 150),
                                  poissons_ratio=(0.3, 0.3),
